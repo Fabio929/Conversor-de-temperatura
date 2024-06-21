@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../src/index.js" defer></script>
+  </head>
+  <body>
+    <div id="prototypeBody">
+      <h1>Conversor de Temperatura</h1>
+      <div id="inputDisplay">
+        <input
+          type="text"
+          name="inputD"
+          id="inputD"
+          placeholder="0"
+          class="inputStyle"
+        />
+      </div>
+      <div id="table">
+        <div id="btnTable1 " class="btnTable">
+          <button id="btn" data-value="1">1</button>
+          <button id="btn" data-value="2">2</button>
+          <button id="btn" data-value="3">3</button>
+          <button id="celsiusDegrees" value="celsius" class="conversorStyle">
+            °C
+          </button>
+        </div>
+        <div id="btnTable2" class="btnTable">
+          <button id="btn" data-value="4">4</button>
+          <button id="btn" data-value="5">5</button>
+          <button id="btn" data-value="6">6</button>
+          <button
+            id="fahrenheitDegrees"
+            value="fahrenheit"
+            class="conversorStyle"
+          >
+            °F
+          </button>
+        </div>
+        <div id="btnTable3" class="btnTable">
+          <button id="btn" data-value="7">7</button>
+          <button id="btn" data-value="8">8</button>
+          <button id="btn" data-value="9">9</button>
+          <button id="kelvinDegrees" value="kelvin" class="conversorStyle">
+            °K
+          </button>
+        </div>
+        <div id="btnTable4" class="btnTable">
+          <button id="btn" data-value="-">-</button>
+          <button id="btn" data-value="0">0</button>
+          <button id="btn" data-value=".">.</button>
+          <button id="clear">CE</button>
+        </div>
+      </div>
+
+      <div class="resultInput">
+        <input type="text" id="result" placeholder="0" class="inputStyle" />
+      </div>
+    </div>
+  </body>
+</html>

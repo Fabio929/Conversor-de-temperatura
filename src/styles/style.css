@@ -1,0 +1,90 @@
+h1 {
+  font-family: "Lilita One", sans-serif;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+
+  color: #eeeeee;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #0b141f;
+}
+
+#clear {
+  height: 50px;
+  width: 100px;
+  background-color: #0b1f15;
+  color: white;
+  cursor: pointer;
+  border: solid 4px #0b1f1c;
+}
+#clear:hover {
+  color: #ff0000;
+  background-color: #0b141f;
+}
+
+#btn {
+  height: 50px;
+  width: 100px;
+  background-color: #0b1b1f;
+  font-size: 20px;
+  color: white;
+  border-color: #0b1f1c;
+  border: 4px solid #0b1f1c;
+  margin-top: 2px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #0b1f1c;
+}
+.inputStyle {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 400px;
+  margin: 0px;
+  border: 4px solid #0b1f1c;
+  font-size: 20px;
+  background-color: #0b1b1f;
+  color: white;
+  margin-bottom: 4px;
+}
+
+#converter {
+  height: 50px;
+  width: 100px;
+  background-color: #0b1f15;
+  color: white;
+}
+.conversorStyle {
+  height: 50px;
+  width: 100px;
+  background-color: #0b1f15;
+  color: white;
+  cursor: pointer;
+  border: solid 4px #0b1f1c;
+}
+.conversorStyle:hover {
+  background-color: #0b141f;
+}
+
+.btnTable {
+  text-align: center;
+}
+
+#inputDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.resultInput {
+  display: flex;
+  justify-content: center;
+}
